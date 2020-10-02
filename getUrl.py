@@ -91,7 +91,7 @@ def main():
 		python getUrl.py 1, 100, programming
 		from page 1 to page in subject programming
 		'''
-		subTitle = str(sys.argv[3])
+		subTitle = '/'+str(sys.argv[3])
 		fromPage = int(sys.argv[1])
 		toPage = int(sys.argv[2])
 		get_all_book_urls(fromPage, toPage, subTitle)
